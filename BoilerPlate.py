@@ -49,6 +49,8 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
+from dotenv import load_dotenv
+load_dotenv()
 
 
 # ─────────────────────────────────────────────
